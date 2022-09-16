@@ -39,41 +39,6 @@ function PageConquer() {
     carousel1.current.scrollLeft += carousel1.current.offsetWidth;
   };
 
-  // const codigoSecreto = "luis";
-
-  // let temporizador;
-  // let sequenciaDeCaracteres = [];
-
-  // let peguei = document.querySelector(".card");
-
-  // let peguei2 = document.querySelector("#board-1");
-
-  // let some = document.querySelector(".div-recebe-imgs");
-
-  // window.addEventListener("keydown", function (e) {
-  //   const teclaPressionada = e.key;
-
-  //   const fecha = e.key;
-  //   if (fecha === "Escape") {
-  //     setLuis(!luis);
-  //     sequenciaDeCaracteres = [];
-  //   }
-
-  //   sequenciaDeCaracteres.push(teclaPressionada);
-
-  //   const fraseComCaracteres = sequenciaDeCaracteres.join("");
-
-  //   if (fraseComCaracteres.includes(codigoSecreto)) {
-  //     console.log("acertou");
-  //     setLuis(!luis);
-
-  //     sequenciaDeCaracteres = [];
-  //   }
-  //   temporizador = setTimeout(function () {
-  //     sequenciaDeCaracteres = [];
-  //   }, 1000);
-  // });
-
   const totalImages = ImageData.length;
   // console.log(numberOfImages);
 
