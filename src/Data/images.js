@@ -1,6 +1,6 @@
 import matheus from "../images/eu.png";
 import thalles from "../images/thalles-conquer.png";
-import Rafael from "../images/rafael.png";
+import Rafael from "../images/rafael.jpg";
 import jux from "../images/jux.png";
 import iago from "../images/iago-conquer.png";
 import cayo from "../images/cayo.png";
@@ -12,6 +12,8 @@ import luis from "../images/luis-conquer.png";
 import bruna from "../images/bruna-conquer.png";
 import ytalo from "../images/ytalo.png";
 import luiz from "../images/luiz.png";
+import thai from "../images/thaina.png";
+import jeff from "../images/jefferson.png";
 
 const images = [
   { id: 1, image: luis },
@@ -28,6 +30,8 @@ const images = [
   { id: 12, image: ytalo },
   { id: 13, image: thalles },
   { id: 14, image: luiz },
+  { id: 15, image: thai },
+  { id: 16, image: jeff },
 ];
 
 export default images;
