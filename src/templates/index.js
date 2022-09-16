@@ -75,7 +75,6 @@ function PageConquer() {
   // });
 
   const totalImages = ImageData.length;
-  console.log(totalImages);
   // console.log(numberOfImages);
 
   return (
@@ -109,14 +108,6 @@ function PageConquer() {
               );
             })}
           </div>
-          {/* <div className="buttons">
-            <button onClick={handleLeftClick1}>
-              <HiArrowNarrowLeft />
-            </button>
-            <button onClick={handleRightClick1}>
-              <HiArrowNarrowRight />
-            </button>
-          </div> */}
         </div>
       </WrapperCard>
       {numberOfImages != totalImages.length && (
